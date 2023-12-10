@@ -2,7 +2,7 @@
 title: "The Evolution of Neural Networks in AI"
 date: 2023-04-07
 author: Riley Thompson
-description:  Delve deep into the fascinating world of neural networks, tracing their evolution and understanding their significance in modern AI.
+description: Delve deep into the fascinating world of neural networks, tracing their evolution and understanding their significance in modern AI.
 image: /images/blog/the-evolution-of-neural-networks-in-ai.png
 ---
 
@@ -25,4 +25,5 @@ While neural networks have sparked an AI revolution, they aren't without limitat
 However, the AI community is resilient. Innovations like transfer learning, where a pre-trained model is adapted for a new task, are reducing the need for vast datasets and computing power.
 
 ## In Conclusion
+
 Neural networks have come a long way, powering most of the AI-driven innovations we see today. As we stand on the cusp of new discoveries, understanding the evolution and intricacies of neural networks is essential for anyone keen on the future of AI.

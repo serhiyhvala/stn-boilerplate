@@ -1,0 +1,21 @@
+.prompts {
+  margin: 20px;
+  h3 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.prompt {
+  padding: 20px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

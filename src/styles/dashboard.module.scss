@@ -1,0 +1,25 @@
+.dashboard {
+  margin: 20px;
+  h3 {
+    font-weight: bold;
+    font-size: 30px;
+  }
+}
+
+.users {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.user {
+  padding: 10px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  button {
+    padding: 0 15px;
+  }
+}

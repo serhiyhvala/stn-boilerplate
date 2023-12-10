@@ -1,5 +1,7 @@
-import {Login} from "@/modules/auth/components";
+import React from 'react';
+import { Login } from '@/modules/auth/components';
 
-export default function LoginPage(){
-    return <Login />
-}
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+const LoginPage = () => <Login />;
+
+export default LoginPage;

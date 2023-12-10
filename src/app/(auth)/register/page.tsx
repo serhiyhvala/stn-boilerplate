@@ -1,5 +1,6 @@
-import {Register} from "@/modules/auth/components";
+import { Register } from '@/modules/auth/components';
 
-export default function RegisterPage(){
-    return <Register />
-}
+// eslint-disable-next-line @typescript-eslint/explicit-function-return-type
+const RegisterPage = () => <Register />;
+
+export default RegisterPage;
