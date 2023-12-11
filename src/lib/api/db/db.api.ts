@@ -105,6 +105,12 @@ export const getUserPrompts = async (userId: string) => prisma.message.findMany(
   }
 })
 
+export const deleteUser = async (userId: string) => prisma.user.delete({
+  where: {
+    id: userId
+  }
+})
+
 export const getCategoriesList = async (userId: string): Promise<Category[]> =>
   prisma.category.findMany({
     where: {

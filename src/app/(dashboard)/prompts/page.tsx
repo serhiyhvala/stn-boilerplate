@@ -12,14 +12,20 @@ export default async function PromptsPage() {
   const userPrompts = await getUserPrompts(user?.id || '')
 
   return <div className={styles.prompts}>
-    <h3>Your Prompts</h3>
-    <div className={styles.container}>
-      {userPrompts.map(item => (
-          <div className={styles.prompt} key={item.id}>
-            <div>{item.content}</div>
-            <CopyButton prompt={item.content}/>
+    {userPrompts.length > 0 ? (
+        <>
+          <h3>Your Prompts</h3>
+          <div className={styles.container}>
+            {userPrompts.map(item => (
+                <div className={styles.prompt} key={item.id}>
+                  <div>{item.content}</div>
+                  <CopyButton prompt={item.content}/>
+                </div>
+            ))}
           </div>
-      ))}
-    </div>
+        </>
+    ) : (
+        <h3>You don't have any prompts yet</h3>
+    )}
   </div>;
 }
